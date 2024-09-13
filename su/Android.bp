@@ -26,4 +26,5 @@ cc_binary {
     install_in_xbin: true,
 
     header_libs: ["libcutils_headers"],
+    shared_libs: ["libcutils"],
 }
